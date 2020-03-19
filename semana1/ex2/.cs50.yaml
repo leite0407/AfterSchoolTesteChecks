@@ -1,0 +1,6 @@
+check50:
+  checks:
+    teste:
+      - run: python3 ex2.py
+        stdout: 68640
+        exit: 0
