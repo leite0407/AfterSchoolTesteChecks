@@ -4,3 +4,5 @@ check50:
       - run: python3 ex1.py
         stdout: 68640
         exit: 0
+
+submit50: true
