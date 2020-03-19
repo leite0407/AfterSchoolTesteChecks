@@ -11,4 +11,5 @@ check50:
         exit: 0
 
 submit50:
-  files: ex2.py
+  files:
+    - ex2.py
