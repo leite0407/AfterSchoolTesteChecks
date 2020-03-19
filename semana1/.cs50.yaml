@@ -8,4 +8,5 @@ check50:
       - run: python3 ex2.py
         stdout: 26497
 
-submit50: true
+submit50:
+  files: ex2.py
