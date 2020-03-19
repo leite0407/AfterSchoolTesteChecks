@@ -11,5 +11,4 @@ check50:
       - run: python3 ex2.py
         stdout: 26497
 
-submit50:
-  files: *check50_files
+submit50: true
