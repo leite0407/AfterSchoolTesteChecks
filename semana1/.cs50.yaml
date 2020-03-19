@@ -1,4 +1,7 @@
 check50:
+  files:
+    - !require ex1.py
+    - !require ex2.py
   checks:
     ex1:
       - run: python3 ex1.py
@@ -9,4 +12,4 @@ check50:
         stdout: 26497
 
 submit50:
-  files: ex2.py
+  files: *check50_files
