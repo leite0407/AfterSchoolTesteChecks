@@ -4,6 +4,3 @@ check50:
       - run: python3 ex2.py
         stdout: 68640
         exit: 04
-
-submit50:
-  files: ex2.py
