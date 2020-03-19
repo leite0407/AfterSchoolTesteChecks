@@ -3,4 +3,4 @@ check50:
     teste:
       - run: python3 ex2.py
         stdout: 68640
-        exit: 04
+        exit: 0
