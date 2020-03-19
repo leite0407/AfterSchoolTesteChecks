@@ -1,4 +1,5 @@
 check50:
+  files: &check50_files
   checks:
     ex1:
       - run: python3 ex1.py
@@ -9,4 +10,5 @@ check50:
         stdout: 26497
         exit: 0
 
-submit50: true
+submit50:
+  files: *check50_files
